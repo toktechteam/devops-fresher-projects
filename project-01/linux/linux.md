@@ -372,7 +372,7 @@ scp myfile.txt user@192.168.1.100:/home/user/
 
 ---
 
-## 📌 21. Mounting and Permanent Mounting
+## 📌 22. Mounting and Permanent Mounting
 ✅ **Command:** 
 
 `mount /dev/sdb1 /mnt`
@@ -387,7 +387,7 @@ Add an entry to `/etc/fstab`
 
 ---
 
-## 📌 22. Installing Software
+## 📌 23. Installing Software
 ✅ **Command:** 
 
 `apt install package_name` (Ubuntu/Debian)
@@ -400,11 +400,8 @@ Add an entry to `/etc/fstab`
 
 ---
 
-## 📌 23. Linux Troubleshooting Commands
-✅ **Command:** 
-
-`dmesg | tail`
-
+## 📌 24. Linux Troubleshooting Commands
+✅ **Command:** `dmesg | tail`
 ✅ **Use Case:** Check system logs.
 
 ✅ **Command:** `journalctl -xe`
