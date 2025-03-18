@@ -6,7 +6,9 @@ Linux is an essential skill for DevOps engineers. Mastering Linux commands helps
 ---
 
 ## 📌 1. Checking Disk Space
-✅ **Command:** `df -kh`
+✅ **Command:** 
+`df -kh`
+
 ✅ **Use Case:** Check available and used disk space in human-readable format.
 ✅ **Example Output:**
 
@@ -14,6 +16,7 @@ Linux is an essential skill for DevOps engineers. Mastering Linux commands helps
 Filesystem      Size  Used Avail Use% Mounted on  
 /dev/xvda1      50G   20G   30G  40% /
 ```
+
 ✅ **Real-World Application:** Used before deploying an application to ensure enough disk space is available.
 
 ---
