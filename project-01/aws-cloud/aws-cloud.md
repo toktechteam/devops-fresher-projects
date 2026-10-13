@@ -115,12 +115,15 @@ This document serves as a structured, easy-to-reference guide for AWS Foundation
 ### ✅ **Types**
 - **Application Load Balancer (ALB)**: Operates at Layer 7 (HTTP/HTTPS).
 - **Network Load Balancer (NLB)**: Operates at Layer 4 (TCP/UDP).
-- **Classic Load Balancer (CLB)**: Legacy load balancer.
+- **Gateway Load Balancer (GLB)**: Operates at Layer 3 (TCP/UDP)
+- **Classic Load Balancer (CLB)**: Legacy load balancer(Deprecated).
+
 
 ### 🔄 **How It Works**
 - Define target groups for back-end instances.
 - ALB routes traffic based on HTTP rules.
 - NLB provides low-latency, high-performance routing.
+- GLB distributes network traffic using a 5-tuple hash so security tools like firewalls can inspect it.
 
 ### 💡 **Real-World Use Cases**
 - Load balancing web traffic.
